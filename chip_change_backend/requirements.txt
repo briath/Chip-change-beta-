@@ -1,0 +1,21 @@
+# Основные зависимости Django
+Django==4.2.5
+djangorestframework==3.14.0
+
+# Поддержка CORS
+django-cors-headers==4.0.0
+
+# База данных (например, PostgreSQL)
+psycopg2-binary==2.9.6
+
+# Аутентификация и работа с токенами
+djangorestframework-simplejwt==5.2.2
+
+# Поддержка .env файлов (если используется)
+python-dotenv==1.0.0
+
+# Деплой (если планируете использовать gunicorn)
+gunicorn==20.1.0
+
+# Дополнительные пакеты (если требуются)
+django-filter==23.2  # Фильтрация данных в API
